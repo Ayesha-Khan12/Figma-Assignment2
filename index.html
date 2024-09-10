@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figma Assignment 2</title>
+
+    <!-- custom css link  -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!-- cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- google font link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- navbar start -->
+
+    <header>
+        <nav>
+            <ul class="nav-bar animate__animated animate__flipInX ">
+                <li class="logo"><a href="#"><img src="images/image.png" alt=""></a></li>
+                <input type="checkbox" id="check">
+                <span class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">For New Student's<i class="fa fa-caret-down"></i></a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li id="profile" ><a href="#">Profile <i class="fa-solid fa-user"></i></a></li>
+                    <li><img src="images/image copy.png" width="30px" height="15px" style="margin-top: 50px;" alt="">
+                    </li>
+                    <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                </span>
+                <label for="check" class="open-menu"><img src="images/image copy.png" width="30px" height="15px"
+                        alt=""></i></label>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- navbar completed -->
+    <!-- section start  -->
+    <section>
+        <div class="container">
+            <div class="content">
+                <div class="left-side animate__animated animate__fadeInTopLeft" >
+                    <h1>Learn Website
+                        Development</h1>
+                    <p class="para animate__animated animate__fadeInTopRight">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.</p>
+                    <div class="join animate__animated animate__fadeInTopLeft">
+                        <button>Join</button>
+                        <div class="circle"><img src="images/image copy 3.png" alt=""></div>
+                        <div class="line"></div>
+                        <p class="text">Watch Demo...</p>
+                    </div>
+                    <div class="search animate__animated animate__fadeInTopRight">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" placeholder="Find Course..." class="search-input">
+                        <button class="search-button">Search</button>
+                    </div>
+                </div>
+                <div class="right-side">
+                     <div id="slider" class="animate__animated animate__rotateIn">
+                    <input type="radio" id="slide1" name="slider">
+                    <input type="radio" id="slide2" name="slider">
+                    <input type="radio" id="slide3" name="slider">
+                    <input type="radio" id="slide4" name="slider">
+                    <div id="slides">
+                        <div class="slide"><img src="images/png.png" alt=""></div>
+                        <div class="slide"><img src="images/png.png" alt=""></div>
+                        <div class="slide"><img src="images/png.png" alt=""></div>
+                        <div class="slide"><img src="images/png.png" alt=""></div>
+                    </div>
+                    <div id="controls">
+                        <label for="slide1"></label>
+                        <label for="slide2"></label>
+                        <label for="slide3"></label>
+                        <label for="slide4"></label>
+                    </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section end  -->
+
+    <!-- footer start  -->
+    <footer class="animate__animated animate__slideInLeft">
+        <span>Creative.com©rights</span>
+        <div class="text">
+            <p>FB</p>
+            <p>TW</p>
+            <p>LI</p>
+        </div></footer>
+    <!-- footer end -->
